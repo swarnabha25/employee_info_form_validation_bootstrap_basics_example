@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+  
+ <!--******************************* PUT THE JAVA SCRIPT IN HEAD  *********************************-->
+    
+    
+    <script src="non-empty.js"></script>
+    
+      
+  <!--*********************************************************************************************-->  
+     
+</head>
+    
+    
+    
+    
+    
+<body>
+    
+<div class="container">
+    <blockquote>
+  <div class="row">
+    <div class="col-md-4"><img src="ctslogo.png" alt="CTS LOGO" width="300" height="200"></div>
+    <div class="col-md-8"><h1 class="bg-primary" style="padding-top: 40px; padding-bottom: 40px; font-size: 50px; text-align: center;"><strong>Employee Info</strong></h1></div>
+    
+  </div>
+        </blockquote>
+    
+    <div class="row">
+        <div class="col">
+    
+    <div class="panel-group">
+        
+        <div class="panel panel-default">
+        <div class="panel-heading" style="text-align: center;">Please enter the following informations:</div>
+            <div class="panel-body">
+            
+                
+          
+                
+                
+<!--********************************IDEAL FOR FORM TAG *************************************-->              
+                
+                
+<form class="form-horizontal" action="http://blog.terrificwords.com/how-to-deal-with-people-intentionally-hurting-you/"      method="get" id="form"    onsubmit="return validate();"><!--**Call the validate function by onsubmit attribute**-->
+                
+<!--***********************************************************************************************-->       <!--************************************EMPLOYEE ID************************************************-->         
+    <div class="form-group row">
+       <label class="control-label col-sm-2" for="id1">Employee ID:<span class="text-danger"><sup>*</sup></span></label>
+      <div class="col-sm-10"> 
+        <input class="form-control" placeholder="Enter Employee Id"   id="id1"  name="id1" type="text" >
+  </div>
+    </div>
+                
+                
+    
+<!--*************************************************************************************************-->    
+<!--***********************************EMPLOYEE ID***************************************************-->    
+    
+    
+    <div class="form-group row">
+      <label class="control-label col-sm-2" for="name1">Employee Name:<span class="text-danger"><sup>*</sup></span></label>
+      <div class="col-sm-10">          
+        <input  class="form-control"  placeholder="Enter Employee Name" id="name1" name="name1" type="text" >
+     </div>
+    </div>
+                
+<!--************************************************************************************************-->
+<!--*****************************************ADDRESS************************************************-->
+    
+     <div class="form-group row">
+      <label class="control-label col-sm-2" for="address">Address:<span class="text-danger"><sup>*</sup></span></label>
+      <div class="col-sm-10">          
+        <input  class="form-control" placeholder="Enter Address" id="address" name="address" type="text">
+     </div>
+    </div>
+<!--************************************************************************************************--> 
+<!--********************************************DOB*************************************************-->
+                
+    <div class="form-group row">
+      <label class="control-label col-sm-2" for="dob">Date of Birth:<span class="text-danger"><sup>*</sup></span></label>
+      <div class="col-sm-10">
+      
+        <input class="form-control"  placeholder="Enter DOB" id="dob" name="dob" type="date" >
+          
+      </div>
+    </div>
+<!--***********************************************************************************************-->       <!--*************************************COUNTRY DROP DOWN*****************************************-->         
+                 
+<div class="form-group row">
+      <label for="country" class="control-label col-sm-2" >Country:</label>
+      <div class="col-sm-10">           
+                
+       <div class="dropdown">
+           
+           
+ <select class="form-control" id="country">
+     
+    <option>Choose</option>
+    <option >India</option>
+    <option >USA</option>
+    <option >England</option>
+    <option >Australia</option>
+    <option >Japan</option>
+    <option >China</option>
+    <option >South Africa</option>
+</select>
+            
+</div>         
+    </div>
+        </div>
+<!--*************************************************************************************************-->                
+<!--***********************************STATE DROP DOWN***********************************************-->                
+ <div class="form-group row">
+      <label for="state" class="control-label col-sm-2" >State:</label>
+      <div class="col-sm-10">           
+                
+       <div class="dropdown">
+           
+           
+ <select class="form-control" id="state">
+     
+    <option>Choose</option>
+    <option >West Bengal</option>
+    <option >Andhra Pradesh</option>
+    <option >Maharashtra</option>
+    <option >Karnataka</option>
+    <option >Tamil Nadu</option>
+    <option >Uttar Pradesh</option>
+    <option >Madhya Pradesh</option>
+</select>
+            
+</div>         
+    </div>
+        </div>               
+                
+<!--************************************************************************************************-->
+                
+<!--**********************************CITY DROPDOWN*************************************************-->     <div class="form-group row">
+      <label for="city" class="control-label col-sm-2" >City:</label>
+      <div class="col-sm-10">           
+                
+       <div class="dropdown">
+           
+           
+ <select class="form-control" id="city">
+     
+    <option>Choose</option>
+    <option >Kolkata</option>
+    <option >Asansol</option>
+    <option >Siliguri</option>
+    <option >Durgapur</option>
+    <option >English Bazar</option>
+    <option >Bardhaman</option>
+    <option >Habra</option>
+</select>
+            
+</div>         
+    </div>
+        </div>                          
+<!--*************************************************************************************************--> 
+<!--**************************************EMAIL******************************************************-->
+    
+     <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email Address:<span class="text-danger"><sup>*</sup></span></label>
+      <div class="col-sm-10">          
+        <input class="form-control"  placeholder="Enter Email Address" id="email" name="email" type="text" >
+     </div>
+    </div>           
+                
+    
+<!--*************************************************************************************************-->    
+    
+<!--***************************************SUBMIT BUTTON***************************************************-->
+        <div class="text-center">       
+        
+   <button  class="btn btn-primary active" type="submit" value="submit" id="submit"><strong>Submit</strong></button>
+            
+        </div>    
+        
+<!--************************************************************************************************-->  
+    
+<!--*********************************** END OF FORM ELEMENTS*********************************************-->
+                
+                
+                
+                
+                
+                </form><!--**********END OF FORM**************-->
+                
+        </div><!--*****************END OF PANEL****************-->
+            
+<!--***************************************PANEL FOOTER***********************************************--> 
+            
+            <div class="panel-footer text-muted" style="text-align: center;">@2020</div>
+            
+<!--*************************************************************************************************-->            
+           </div>
+        </div>
+       </div>
+    </div>
+</div>
+    
+   </body>
+</html>
